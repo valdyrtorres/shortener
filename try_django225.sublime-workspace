@@ -1,0 +1,272 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/dev/python/try_django225"
+	],
+	"file_history":
+	[
+		"/C/work/ClaimCenter_509_OOTB_Patch3_PRD/studio.bat",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_HML/ajustajava5.bat",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_HML/studio.bat",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_DEV/studio.bat",
+		"/C/Users/501161/Documents/hostsValdir.txt",
+		"/C/Users/501161/Downloads/hostsMotta.txt",
+		"/C/work/ContactCenter_509_OOTB_Patch3_DEV/ajustaV5Variaveis.bat",
+		"/C/work/ContactCenter_509_OOTB_Patch3_HML/studio.bat",
+		"/C/work/ContactCenter_509_OOTB_Patch3_PRD/studio.bat",
+		"/C/work/ContactCenter_509_OOTB_Patch3_DEV/ajustajava5.bat",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_DEV/bin/entity-gen.xml",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_PRD/bin/entity-gen.xml",
+		"/C/valdir/ubuntuwindows.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_PRD/bin/shared.xml",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_PRD/bin/soap-gen.xml",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_PRD/bin/build.xml",
+		"/C/dev/java/spring/java-spring-idea-example/pom.xml",
+		"/C/tools/ide/eclipse092019/eclipse.ini",
+		"/C/valdir/lgpd/bizulgpd.txt",
+		"/C/tools/ide/eclipse092019/eclipse.ini.orig",
+		"/C/valdir/tarefasSetembro2019/23060-GW-P2.txt",
+		"/C/valdir/Passos.txt",
+		"/C/valdir/passosafazer.txt",
+		"/C/work/ContactCenter_509_OOTB_Patch3_PRD/bin/shared.xml",
+		"/C/work/ContactCenter_509_OOTB_Patch3_PRD/bin/build.xml",
+		"/C/tools/ide/eclipse/eclipse.ini",
+		"/C/valdir/private/go/src/app-go-react/README.md",
+		"/C/valdir/private/links",
+		"/C/work/ContactCenter_509_OOTB_Patch3_DEV/studio.bat",
+		"/C/work/ClaimCenter509_PRD/studio.bat",
+		"/C/valdir/guidewire/listadecursos_um.txt",
+		"/C/work/ClaimCenter509_PRD/bin/build.xml",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_DEV/bin/build.xml",
+		"/C/work/ClaimCenter_509_OOTB_Patch3_DEV/bin/soap-gen.xml",
+		"/C/valdir/private/coders_go/go/src/projetos/go-restapi/main.go",
+		"/C/work/ClaimCenter1001/brRegions.txt",
+		"/C/valdir/private/coders_go/go/src/projetos/go-restapi/router/movie_router.go",
+		"/C/valdir/private/coders_go/go/src/projetos/go-restapi/config/config.go",
+		"/C/valdir/private/coders_go/go/src/projetos/go-restapi/config/dao/movies_dao.go",
+		"/C/valdir/queries_gosu/ClaimHistory.txt",
+		"/C/valdir/private/coders_go/restgo/readme.md",
+		"/C/valdir/queries_gosu/updateauthuser.txt",
+		"/C/valdir/guidewire/desenvolvimento_dicas.txt",
+		"/C/valdir/private/coders_go/restgo/controllers/tasks.go",
+		"/C/valdir/private/coders_go/restgo/common/mongo.go",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/tarefasECM.txt",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/canivetesuico/NrotBoleto_V2.gs",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/canivetesuico/queryXml.txt",
+		"/C/Temp/cargaTesteTipoFilenet.gsp",
+		"/C/valdir/guidewire/database-config-errado.xml",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/canivetesuico/criadocfilenet.txt",
+		"/C/valdir/tarefasagosto2019/TRANSFSIN-8354/DocumentsLV.pcf",
+		"/C/valdir/guidewire/config-certo.xml",
+		"/C/valdir/guidewire/database-config.xml",
+		"/C/Users/501161/Desktop/listadeestudo.txt",
+		"/C/valdir/guidewire/ListaDeComandos",
+		"/C/work/ClaimCenter1001/modules/configuration/config/config.xml",
+		"/C/work/ClaimCenter509_PRD/modules/configuration/config/web/pcf/claim/exposures/Salvado/NotaFiscalEletronica/extensionsV5.xml",
+		"/C/Users/501161/Desktop/PENDENCIAS_NOTAFISCAL.txt",
+		"/C/work/ClaimCenter509_PRD/modules/configuration/config/typelists/StatusNotaFiscal_Ext.xml",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/canivetesuico/permissoes_SU.txt",
+		"/C/valdir/queries_gosu/criarSalvage.txt",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/canivetesuico/parcela.txt",
+		"/C/work/ClaimCenter509_PRD/modules/configuration/config/web/pcf/claim/exposures/Salvado/NotaFiscalEletronica/DadosNFEntradaNFEletronicaInputSet.pcf",
+		"/C/Temp/teste.pcf",
+		"/C/valdir/tarefasJunho2019/tarefas1.txt",
+		"/C/dev/python/try_django/Pipfile",
+		"/C/valdir/tarefasagosto2019/INotaFiscalSalvadoAPI.xml",
+		"/C/work/ClaimCenter1001/modules/configuration/plugins/Gosu/classes/ccDev.properties",
+		"/C/work/ClaimCenter1001/modules/configuration/plugins/Gosu/classes/ccProd.properties",
+		"/C/valdir/tarefasagosto2019/story-23520-pendencias.txt",
+		"/C/valdir/tarefasJunho2019/comandosgit.txt",
+		"/C/Users/501161/Downloads/NrotBoleto.gs",
+		"/C/Users/501161/Downloads/peopleap-h.cer",
+		"/C/work/ClaimCenter1001/modules/configuration/config/resources/ScriptParameters.xml",
+		"/C/Temp/mi_pcfs/display_pt.properties",
+		"/C/valdir/distribuicaohorasprojeto.txt",
+		"/C/valdir/apontamento/junho2019/dias Junho 2019",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/procedimentos_criacao_plugin.txt",
+		"/C/work/ClaimCenter1001/modules/configuration/.gitignore",
+		"/C/work/ClaimCenter509_PRD/bin/gwcc.bat",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/endpoints_resumo.txt",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/IEcmDAOinterface.java",
+		"/C/valdir/tarefasJunho2019/PENDENCIAS_PR_186.txt",
+		"/C/work/ClaimCenter1001.vp/modules/configuration/gsrc/gw/plugin/document/impl/LocalDocumentContentSource.gs",
+		"/C/valdir/guidewire/backup",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/byte[] converteArq = Base64",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/arrayByte.txt",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/euroclearblockchain.pdf1.enc",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/DA0032_devolutaxa.pdf1.enc",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/FileEncDec.java",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/cleardot.gif1.enc",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/image.png1.enc",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/teste33_0.pdf1.enc",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/image.png3.enc",
+		"/C/valdir/tarefasJunho2019/TAREFA_ECM_18062019/image.png2.enc",
+		"/C/Temp/test2.txt",
+		"/C/dev/python/venv/Pipfile",
+		"/C/dev/python/venv/Pipfile.lock",
+		"/C/valdir/tarefasJunho2019/Jira-transfsin-6957/Jira 23720.1-GW.txt",
+		"/C/valdir/sulamerica/ContactManager1001/modules/configuration/res/gwxmlmodule.xml",
+		"/C/valdir/erronexus",
+		"/C/GW9/TrainingApp/logs/ablog.log"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "try_django225.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

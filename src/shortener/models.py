@@ -25,8 +25,8 @@ class KirrURLManager(models.Manager):
 		return "New codes made: {i}".format(i=new_codes)
 
 class KirrURL(models.Model):
-	url       = models.CharField(max_length=220, )
-	shortcode = models.CharField(max_length=SHORTCODE_MAX, default='abc', unique=True, blank=True)
+	url       = models.CharField(max_length=220,)
+	shortcode = models.CharField(max_length=SHORTCODE_MAX, unique=True, blank=True)
 	updated   = models.DateTimeField(auto_now=True) #everytime the is saved
 	timestamp = models.DateTimeField(auto_now_add=True) #when model was created
 	active    = models.BooleanField(default=True)

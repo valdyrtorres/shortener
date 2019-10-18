@@ -19,7 +19,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path
 
-from shortener.views import kirr_redirect_view, KirrCBView
+from django.conf.urls import url
+
+from shortener.views import kirr_redirect_view, KirrCBView, test_view
 
 # DO NOT DO
 #from shortener import views
@@ -30,7 +32,7 @@ from shortener.views import kirr_redirect_view, KirrCBView
 #https://www.codingforentrepreneurs.com/blog/common-regular-expressions-for-django-urls
 
 urlpatterns = [
-    path('new_admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     #url(r'^admin/', admin.site.urls), #old versions
     #path('view-1/', kirr_redirect_view),
     #path('view-2/', KirrCBView.as_view()),
@@ -40,6 +42,14 @@ urlpatterns = [
     #path('abc/', 'shortener.views.kirr_redirect_view')
     #path('abc/', 'views.kirr_redirect_view')
 
-    re_path(r'^a/(?P<shortcode>[\w-]+)/$', kirr_redirect_view),
-    re_path(r'^b/(?P<shortcode>[\w-]+)/$', KirrCBView.as_view()),
+    #path('about123/', test_view), #ok tambem funfa
+
+    #com url
+    #url(r'^a/(?P<shortcode>[\w-]+){6,15}/$', kirr_redirect_view),
+    #url(r'^b/(?P<shortcode>[\w-]+){6,15}/$', KirrCBView.as_view()),    
+ 
+    #re_path(r'^a/(?P<shortcode>[\w-]+){6,15}/$', kirr_redirect_view),
+    re_path(r'^a/(?P<shortcode>[\w-]+){0,15}/$', kirr_redirect_view),
+    re_path(r'^b/(?P<shortcode>[\w-]+){6,15}/$', KirrCBView.as_view()),
+    re_path(r'^about123/$', test_view),
 ]

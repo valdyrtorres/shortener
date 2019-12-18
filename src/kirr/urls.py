@@ -21,7 +21,7 @@ from django.urls import path, re_path
 
 from django.conf.urls import url
 
-from shortener.views import kirr_redirect_view, KirrCBView, test_view
+from shortener.views import kirr_redirect_view, KirrCBView, test_view, kirr_shortcut_test
 
 # DO NOT DO
 #from shortener import views
@@ -49,7 +49,15 @@ urlpatterns = [
     #url(r'^b/(?P<shortcode>[\w-]+){6,15}/$', KirrCBView.as_view()),    
  
     #re_path(r'^a/(?P<shortcode>[\w-]+){6,15}/$', kirr_redirect_view),
-    re_path(r'^a/(?P<shortcode>[\w-]+){0,15}/$', kirr_redirect_view),
-    re_path(r'^b/(?P<shortcode>[\w-]+){6,15}/$', KirrCBView.as_view()),
-    re_path(r'^about123/$', test_view),
+    #url(r'^a/(?P<shortcode>[\w-]+){0,25}/$', kirr_redirect_view),
+    re_path(r'^a/(?P<shortcode>[\w-]+){6,15}$', kirr_redirect_view),
+    re_path(r'^b/(?P<shortcode>[\w-]+)/$', KirrCBView.as_view()),
+
+    re_path(r'^c/(?P<shortcode>[\w-]+)/$', kirr_shortcut_test),
+    
+    path('about/', test_view, name='about'),
+
+    re_path(r'^about2/', test_view, name='about'),
+    url(r'^about3/', test_view, name='about'),
+
 ]

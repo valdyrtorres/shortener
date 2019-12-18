@@ -24,8 +24,11 @@ class KirrURLManager(models.Manager):
 			new_codes += 1
 		return "New codes made: {i}".format(i=new_codes)
 
+	def get_queryset(self):
+		return super().get_queryset().filter(active=False)		
+
 class KirrURL(models.Model):
-	url       = models.CharField(max_length=220,)
+	url       = models.CharField(max_length=220)
 	shortcode = models.CharField(max_length=SHORTCODE_MAX, unique=True, blank=True)
 	updated   = models.DateTimeField(auto_now=True) #everytime the is saved
 	timestamp = models.DateTimeField(auto_now_add=True) #when model was created
@@ -34,7 +37,11 @@ class KirrURL(models.Model):
 	#shortcode = models.CharField(max_length=15, null=True) Empty in database is okay
 	#shortcode = models.CharField(max_length=15, default='defaultshortcode')
 
-	objects = KirrURLManager()
+	# Para ajustar o manager customizado, pois fiz o override de all
+	#objects = KirrURLManager()
+	objects = models.Manager() # default manager, put this one first
+	custom = KirrURLManager()
+
 	#some_random = KirrURLManager()
 
 	def save(self, *args, **kwargs):

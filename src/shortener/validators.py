@@ -14,7 +14,7 @@ def validate_url(value):
 	value_2_url = "http://" + value
 
 	try:
-		url_validator(value)
+		url_validator(value_2_url)
 	except:
 		value_2_invalid = True
 

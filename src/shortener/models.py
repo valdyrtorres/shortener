@@ -3,6 +3,8 @@ from django.db import models
 
 SHORTCODE_MAX = getattr(settings, "SHORTCODE_MAX", 15)
 
+#from django.urls import reverse
+from django_hosts.resolvers import reverse
 # Create your models here.
 
 from .utils import code_generator, create_shortcode
@@ -35,11 +37,8 @@ class KirrURL(models.Model):
 	updated   = models.DateTimeField(auto_now=True) #everytime the is saved
 	timestamp = models.DateTimeField(auto_now_add=True) #when model was created
 	active    = models.BooleanField(default=True)
-	#empty_datetime = models.DateTimeField(auto_now=False, auto_now_add=True) 
-	#shortcode = models.CharField(max_length=15, null=True) Empty in database is okay
-	#shortcode = models.CharField(max_length=15, default='defaultshortcode')
 
-	# Para ajustar o manager customizado, pois fiz o override de all
+	# Para ajustar o manager customizado, pois fiz o override de all, senao o get 404 nao funfa
 	#objects = KirrURLManager()
 	objects = models.Manager() # default manager, put this one first
 	custom = KirrURLManager()
@@ -51,17 +50,15 @@ class KirrURL(models.Model):
 			self.shortcode= create_shortcode(self)
 		super(KirrURL, self).save(*args, **kwargs)
 
-	#class Meta:
-	#	ordering = '-id'
-
-	#def my_save(self):
-	#	self.save()
-
 	def __str__(self):
 		return str(self.url)
 
 	def __unicode__(self):
 		return str(self.url)
+
+	def get_short_url(self):
+		url_path = reverse("scode", kwargs={'shortcode': self.shortcode}, host='www', scheme='http')
+		return url_path
 
 '''
 Sempre que alterar, execute

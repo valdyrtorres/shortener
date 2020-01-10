@@ -16,7 +16,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('exemplo/', HomeView.as_view()),
     re_path(r'^$', HomeView.as_view()),
-    re_path(r'(?P<shortcode>[\w-]+){0,15}/$', KirrCBView.as_view()),
-    
+    re_path(r'(?P<shortcode>[\w-]+)/$', KirrCBView.as_view(), name='scode'),
 
 ]

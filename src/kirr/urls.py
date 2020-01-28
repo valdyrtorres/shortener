@@ -3,7 +3,7 @@ from django.urls import path, re_path
 
 from django.conf.urls import url
 
-from shortener.views import HomeView, KirrCBView
+from shortener.views import HomeView, URLRedirectView
 # DO NOT DO
 #from shortener import views
 #from another_app.views import views
@@ -16,6 +16,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('exemplo/', HomeView.as_view()),
     re_path(r'^$', HomeView.as_view()),
-    re_path(r'(?P<shortcode>[\w-]+)/$', KirrCBView.as_view(), name='scode'),
+    re_path(r'(?P<shortcode>[\w-]+)/$', URLRedirectView.as_view(), name='scode'),
 
 ]

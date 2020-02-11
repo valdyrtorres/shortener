@@ -5,6 +5,22 @@
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.4/examples/cover/cover.css" rel="stylesheet">
+    {% block styles %}
+    <style>
+    	body {
+    		background-color: #226268;
+    	}
+
+    	.btn-link {
+    		color:#508fec;
+    		text-shadow: none;
+    	}
+    	.btn-link:hover {
+    		color: #000000;    	
+    	}
+    	
+    </style>
+  	{% endblock styles %}
   </head>
 
   <body class="text-center">

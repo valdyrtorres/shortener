@@ -18,9 +18,11 @@ def home_view_fbv(request, *args, **kwargs):
 class HomeView(View):
 	def get(self, request, *args, **kwargs):
 		the_form = SubmitUrlForm()
+		bg_image = 'https://www.visitnsw.com/sites/visitnsw/files/styles/full_height_image/public/2019-06/163857-3.jpg'
 		context = {
 			"title": "Kirr.co",
-			"form": the_form
+			"form": the_form,
+			"bg_image": bg_image
 		}
 		return render(request, "shortener/home.html", context)
 		#return render(request, "shortener/home.html", { "title": "Submit URL" })

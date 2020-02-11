@@ -8,8 +8,11 @@
 <div>
 	<h1>Exists Already</h1>
 	<p>{{ object.url }} </p>
+	{% if object.clickevent.count %} 
+		<p>Count: {{ object.clickevent.count }}</p> 
+	{% endif %}
 
-	<p><a href='{{ object.get_short_url }}'>{{ object.get_short_url }}</p>
+	<p><a class="btn btn-link" href='{{ object.get_short_url }}'>{{ object.get_short_url }}</a></p>
 	<a class="btn btn-light" href="/">+ New</a>
 </div>	
 {% endblock content %}
